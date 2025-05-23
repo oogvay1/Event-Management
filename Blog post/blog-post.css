@@ -483,19 +483,22 @@
 }
 .might_cards{
     display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     margin-top: 42px;
     margin-bottom: 120px;
 }
 .might_card{
-    width: 350px;
-    height: 400px;
+    width: 255px;
+    height: 191px;
     border-radius: 10px;
+    margin-top: 42px;
+    margin-bottom: 62px;
 }
 .might_card img{
     width: 255px;
     height: 191px;
     display: flex;
-    flex-wrap: wrap;
     gap: 30px;
     border-radius: 6px;
 }
