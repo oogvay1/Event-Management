@@ -431,6 +431,9 @@
     width: 1110px;
     height: 314px;
     padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .write_grey_content{
     width: 736px;
