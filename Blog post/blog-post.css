@@ -63,7 +63,7 @@
     height: 32px;
 }
 .sms_name p, .calendar p, .chat_sms p{
-    font-family: 'inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 12px;
 }
@@ -125,13 +125,13 @@
     margin-top: 64px;
 }
 .befor h2{
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
 }
 .befor p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 37px;
@@ -149,7 +149,7 @@
     margin-bottom: 35px;
 }
 .here_one h2{
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
@@ -159,7 +159,7 @@
     height: 481px;
 }
 .here_one p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 37px;
@@ -176,13 +176,13 @@
     margin-top: 35px;
 }
 .onecannot h2{
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-size: 60px;
     line-height: 72px;
 }
 .onecannot p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 38px;
@@ -194,13 +194,13 @@
     margin-top: 25px;
 }
 .kitchen h2{
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
 }
 .kitchen p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 37px;
@@ -213,7 +213,7 @@
     margin-top: 56px;
 }
 .gastrony p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 37px;
@@ -234,13 +234,13 @@
     gap: 16px;
 }
 .julie h2{
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-size: 45px;
     line-height: 56px;
 }
 .julie p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -273,7 +273,7 @@
     margin-bottom: 8px;
 }
 .coments25 h2{
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-size: 60px;
     line-height: 72px;
@@ -307,7 +307,7 @@
     line-height: 28px;
 }
 .itme_user_text p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 23px;
@@ -321,7 +321,7 @@
     justify-content: flex-end;
 }
 .coment_content p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 37px;
@@ -341,13 +341,13 @@
     gap: 6px;
 }
 .reply p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
 }
 .likes p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -358,7 +358,7 @@
     gap: 6px;
 }
 .more p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -392,7 +392,7 @@
     border-radius: 4px;
     border: none;
     border: 1px solid #000;
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 18px;
     cursor: pointer;
@@ -416,16 +416,19 @@
     width: 1110px;
 }
 .write_login h2{
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-size: 30px;
     line-height: 37px;
 }
 .write_login p, .write_login p span{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+}
+.write_login p span{
+    color: #FF642F;
 }
 .write_grey_box{
     background-color: #F9F9F9;
@@ -441,7 +444,7 @@
     width: 736px;
 }
 .write_grey_content p{
-    font-family: 'Inter' Times, serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -476,7 +479,7 @@
 }
 .you_might{
     margin-top: 80px;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
@@ -494,6 +497,11 @@
     border-radius: 10px;
     margin-top: 42px;
     margin-bottom: 62px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.might_card:hover{
+     margin-top: 20px;
 }
 .might_card img{
     width: 255px;
