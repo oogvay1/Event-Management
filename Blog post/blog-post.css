@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+}
+.full_gude_section{
+    padding-top: 80px;
+}
+.blog_page{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+}
+.forward{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+}
+.forward h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    width: 900px;
+    height: 144px;
+}
+.forward_seve{
+    display: flex;
+    gap: 32px;
+}
+.forward_seve i{
+    margin-top: 29px;
+    font-size: 30px;
+    color: #000000;
+}
+
+/*  sms */
+.sms{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 24px;
+    gap: 32px;
+}
+.sms_name, .calendar, .chat_sms{
+    display: flex;
+    align-items: center;
+    font-family: 'inter' Times, serif;
+    gap: 8px;
+    height: 32px;
+}
+.sms_name p, .calendar p, .chat_sms p{
+    font-family: 'inter' Times, serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+.sms_name img{
+    width: 32px;
+    height: 32px;
+}
+
+/*  liniya  */
+.liniya{
+    background-color: #E8E8E8;
+    width: 1110px;
+    height: 1px;
+    margin: 24px 0;
+}
+.one_thing{
+    font-family: 'inter' Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 700px;
+    letter-spacing: -0.2px;
+}
+
+/* video play   */
+.video_box {
+  position: relative;
+  display: inline-block;
+}
+
+.lemon_img {
+  display: block;
+  width: 100%; 
+  height: auto;
+  margin-top: 40px;
+}
+
+.pay_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+
+.ri-play-line {
+  font-size: 90px;
+  color: white;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.ri-play-line:hover {
+  opacity: 1;
+  color: black;
+}
+
+.befor{
+    margin-top: 64px;
+}
+.befor h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+}
+.befor p{
+    font-family: 'Inter' Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: -0.2px;
+    margin-top: 24px;
+    text-align: left;
+}
+
+/* here are the basics */
+.here_box{
+    display: flex;
+    gap: 49px;
+    margin-top: 80px;
+    padding-bottom: 45px;
+    margin-bottom: 35px;
+}
+.here_one h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+}
+.here_one{
+    width: 521px;
+    height: 481px;
+}
+.here_one p{
+    font-family: 'Inter' Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    margin-top: 24px;
+}
+.here_two img{
+    width: 540px;
+    height: 516px;
+    border-radius: 10px;
+}
+.onecannot{
+    margin-top: 35px;
+}
+.onecannot h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+}
+.onecannot p{
+    font-family: 'Inter' Times, serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 25px;
+}
+.kitchen{
+    margin-top: 25px;
+}
+.kitchen h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+}
+.kitchen p{
+    font-family: 'Inter' Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    margin-top: 33px;
+    margin-bottom: 56px;
+}
+.gastrony{
+    margin-top: 56px;
+}
+.gastrony p{
+    font-family: 'Inter' Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: -0.2px;
+    margin-bottom: 32px;
+}
+.gray_box{
+    margin-top: 25px;
+    margin-bottom: 80px;
+    background-color: #F9F9F9;
+    width: 1106px;
+    height: 418px;
+    padding: 77px 80px;
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.julie h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+}
+.julie p{
+    font-family: 'Inter' Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.gray_p{
+    font-family: 'Inter' Times, serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: -0.2px;
+    text-align: left;
+    margin-top: 29px;
+}
+.grey_icons{
+    display: flex;
+    gap: 32px;
+    margin-top: 24px;
+}
+.grey_icon{
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coments_box{
+    width: 1110px;
+}
+.coments25{
+    margin-bottom: 8px;
+}
+.coments25 h2{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+}
+.coments25 span{
+    font-family: 'Inter' Times, serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+/*  coment_item  */
+.coment_user{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.coment_user img{
+    height: 48px;
+    width: 48px;
+}
+
+.itme_user_text h2{
+    font-family: 'INter' Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+.itme_user_text p{
+    font-family: 'Inter' Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #7F7F7F;
+}
