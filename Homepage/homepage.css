@@ -43,3 +43,37 @@
 .user-pic img {
     cursor: pointer;
 }
+
+.section1-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1-flex-text {
+    width: 420px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 65px;
+    gap: 20px;
+    flex-direction: column;
+    background-color: #E3F1FF;
+}
+
+.section1-flex-text-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.section1-flex-text-icon {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    top: 75%;
+    left: 81%;
+}
