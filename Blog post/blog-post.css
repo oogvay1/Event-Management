@@ -15,6 +15,7 @@
 }
 .blog_page{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     max-width: 1110px;
     margin: 0 auto;
@@ -409,6 +410,7 @@
     margin-top: 80px;
 }
 .write_login{
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
     width: 1110px;
@@ -437,7 +439,6 @@
 }
 .write_grey_content{
     width: 736px;
-    
 }
 .write_grey_content p{
     font-family: 'Inter' Times, serif;
@@ -446,7 +447,6 @@
     line-height: 24px;
 }
 .post_com_btn{
-    margin-top: 24px;
     display: flex;
     justify-content: flex-end;
 }
@@ -473,4 +473,37 @@
     background-color: #fff;
     color: #FF642F;
     border-radius: 10px;
+}
+.you_might{
+    margin-top: 80px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+}
+.might_cards{
+    display: flex;
+    margin-top: 42px;
+    margin-bottom: 120px;
+}
+.might_card{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+}
+.might_card img{
+    width: 255px;
+    height: 191px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    border-radius: 6px;
+}
+.might_card h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 8px;
+    width: 255px;
 }
