@@ -683,7 +683,7 @@
     }
 
     .section6 {
-        height: 3200px;
+        height: 2800px;
     }
 
     .section6-title h1:nth-child(1) {
@@ -759,8 +759,15 @@
         margin: 0 auto;
     }
 
+    .footer {
+        height: 700px;
+        display: flex;
+        align-items: start;
+    }
+
     .footer-flex {
         flex-direction: column;
+        gap: 40px;
     }
 
     .footer-flex-ul {
@@ -779,6 +786,17 @@
         width: 345px;
     }
 
+    .footer-flex-ul h2 {
+        width: 340px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-flex-ul h2 i {
+        font-size: 20px;
+    }
+
     .footer-border {
         margin-bottom: 2rem;
     }
@@ -793,5 +811,26 @@
 
     .footer-icons-main .footer-border {
         display: none;
+    }
+
+    .footer {
+        scroll-margin-bottom: calc(10px + 10px);
+    }
+
+    .footer-icons {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: start;
+        height: 0px;
+        gap: 17px;
+    }
+
+    .footer-icons p {
+        font-size: 14px;
+    }
+
+    .footer-icons i {
+        font-size: 27px;
     }
 }
