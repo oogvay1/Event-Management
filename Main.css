@@ -24,3 +24,84 @@ h1 {
 p {
     font-family: 'Inter', sans-serif;
 }
+
+#recipe, #pages {
+    cursor: pointer;
+}
+
+.drop-down-recipe {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: .5rem;
+    height: 57px;
+    opacity: 0;
+    pointer-events: none;
+    gap: 10px;
+    overflow: hidden;
+    margin-left: -10.4rem;
+    background-color: #ffffff;
+    transition: all .2s ease-in-out;
+}
+
+.drop-down li, .drop-down-recipe li {
+    padding: 7px 10px 5px 20px;
+    transition: all .1s ease-in-out;
+}
+
+.drop-down li:hover, .drop-down-recipe li:hover {
+    width: 100%;
+    background-color: #bababa;
+}
+
+.drop-down {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    pointer-events: none;
+    position: absolute;
+    margin-left: -7.4rem;
+    margin-top: .5rem;
+    border-radius: 10px;
+    height: 170px;
+    opacity: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: all .2s ease-in-out;
+}
+
+.active {
+    height: 200px;
+    opacity: 1;
+    pointer-events: all;
+    margin-top: 1.5rem;
+}
+
+.active2 {
+    height: 74px;
+    pointer-events: all;
+    opacity: 1;
+    margin-top: 1.5rem;
+}
+
+@keyframes active {
+    0% {
+        opacity: 0;
+        display: none;
+        margin-top: -2rem;
+    }
+
+    50% {
+        display: block;
+        opacity: 0;
+        margin-top: -2rem;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
+        margin-top: 0rem;
+    }
+}

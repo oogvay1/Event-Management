@@ -16,14 +16,14 @@
     margin: 0 auto;
 }
 
-.header-nav ul {
+.main-nav {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 45px;
 }
 
-.header-nav ul li a {
+.main-nav li a {
     display: flex;
     align-items: center;
     gap: 7px;
