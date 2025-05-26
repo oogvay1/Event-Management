@@ -154,3 +154,34 @@ p {
 .user-pic img {
     cursor: pointer;
 }
+
+.responsive-menu {
+    display: none;
+}
+
+
+@media only screen and (max-width: 375px) {
+    .container {
+        max-width: 375px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .homepage-width {
+        max-width: 345px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .header-logo a img {
+        width: 100px;
+    }
+
+    .responsive-menu {
+        display: block;
+    }
+
+    .header-nav {
+        display: none;
+    }
+}
