@@ -528,10 +528,11 @@
 
 
 
-
-
-
 @media only screen and (max-width: 375px) {
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
+
     .container {
         max-width: 375px;
         margin: 0 auto;
@@ -567,7 +568,7 @@
     }
 
     .section1-flex-text p:nth-child(1) {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .section1-flex-text h1 {
